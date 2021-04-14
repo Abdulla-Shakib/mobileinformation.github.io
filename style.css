@@ -1,0 +1,432 @@
+/* Common Styles */
+.body{
+    margin: 0px;
+}
+.container{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    /* border: 2px solid black; */
+}
+.section_title{
+    padding: 2% 0%;
+}
+.section_title a{
+    color: orange;
+    text-decoration: none;
+}
+.section_title a:hover{
+    transform: scale(1.05);
+}
+.card{
+    padding: 2%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px 1px #cecece;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+button{
+    color: white;
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Navbar */
+.nav-link:hover{
+    transform: scale(1.2);
+    color: #118ab2;
+}
+
+/* Carousel Styles */
+.first_section{
+    background-image: url(css/images/ellipses.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 10%;
+}
+.carousel-inner{
+    background-image: url(css/images/best_products.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 6%;
+    border-radius: 15px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.carousel-indicators li{
+    background-color: grey;
+}
+.carousel-indicators .active{
+    background-color: orange;
+}
+
+/* Categories Styles  */
+.categories{
+    text-align: center;
+    margin-top: 10%;
+}
+#cat_hr{
+    width: 40px;
+    margin: 0px auto 20px auto;
+    padding: 5px 50px;
+    background-image: linear-gradient(90deg, #ffd280, orange);
+    border-radius: 20px;
+}
+.cat_mobilelogo{
+    margin: 10% 0%;
+    padding: 30% 10% 10% 10%;
+    text-align: center;
+    border: none;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 2px 2px 50px 1px #cecece;
+}
+.cat_bag{
+    margin: 10% 0%;
+    padding: 30% 10% 10% 10%;
+    text-align: center;
+    border: none;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 2px 2px 50px 1px #cecece;
+}
+
+.cat img{
+    width: 80%;
+    margin: 0px auto;
+    padding: ;
+}
+.cat_busket:hover{
+    transform: scale(1.02);
+}
+
+
+/* Social Media Icon  */
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-linkedin {
+    background: #3295C3;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-instagram {
+    background: #D74D5C;
+    color: white;
+  }
+.footer a{
+    color: black;
+    text text-decoration: none;
+}
+.footer p{
+    margin: 0px;
+}
+
+/* Footer  */
+footer{
+    text-align: center;
+}
+ .fit-image{
+
+    width: 100%;
+    object-fit: cover;
+    height: 300px; /* only if you want fixed height */
+}
+.bodypart{
+    width: 77%;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.lastbodypartaccessories{
+    width: 30%;
+    height: 240px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mobilebodypart{
+    width: 77%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.mobilelastbodypartaccessories{
+    width: 65%;
+    height: 1200px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+h3:hover{
+    transform: scale(1.05);
+    color: #f25c54;
+}
+.lastbodypartaccessories_charger{
+    width: 30%;
+    height: 100px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.lastbodypartaccessories_earphone{
+    width: 30%;
+    height: 150px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.lastbodypartaccessories_headphone{
+    width: 30%;
+    height: 200px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.lastbodypartaccessories_aripods{
+    width: 30%;
+    height: 130px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.lastbodypartaccessories_backcover{
+    width: 30%;
+    height: 100px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.lastbodypartaccessories_tripods{
+    width: 30%;
+    height: 150px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.lastbodypartaccessories_selfiesticks{
+    width: 30%;
+    height: 280px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.lastbodypartaccessories_powebank{
+    width: 30%;
+    height: 200px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.mobilelastbodypartaccessories_samsungs21{
+    width: 65%;
+    height: 1350px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mobilelastbodypartaccessories_Oneplus{
+    width: 65%;
+    height: 1400px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mobilelastbodypartaccessories_apple{
+    width: 65%;
+    height: 1950px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mobilelastbodypartaccessories_iphone12pro{
+    width: 65%;
+    height: 1470px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mobilelastbodypartaccessories_iphone11{
+    width: 65%;
+    height: 1800px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_iphonexr{
+    width: 65%;
+    height: 1450px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_samsungA51{
+    width: 65%;
+    height: 1110px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_samsungA52{
+    width: 65%;
+    height: 1110px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.mobilelastbodypartaccessories_samsungA71{
+    width: 65%;
+    height: 1160px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_samsungA72{
+    width: 65%;
+    height: 1160px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.mobilelastbodypartaccessories_samsungM31{
+    width: 65%;
+    height: 1240px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.mobilelastbodypartaccessories_oneplus7{
+    width: 65%;
+    height: 1300px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_oneplus9PRO{
+    width: 65%;
+    height: 1300px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_oneplus9R{
+    width: 65%;
+    height: 1300px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.mobilelastbodypartaccessories_vivov20se{
+    width: 65%;
+    height: 1100px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.mobilelastbodypartaccessories_vivoy20{
+    width: 65%;
+    height: 1300px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_redmi9{
+    width: 65%;
+    height: 1550px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_pocom3{
+    width: 65%;
+    height: 1350px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_realmenarzo30pro{
+    width: 65%;
+    height: 1350px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.mobilelastbodypartaccessories_nokia14{
+    width: 65%;
+    height: 1260px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.mobilelastbodypartaccessories_oppoq52{
+    width: 65%;
+    height: 1260px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.faqstyle h4{
+    color: #03045e;
+}
+.faqstyle h5{
+    color: #3f37c9;
+    margin-left: 10px;
+}
